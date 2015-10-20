@@ -13,7 +13,7 @@ system 'str_line'
 puts
 puts "Please enter a comment for the file commit"
 file_comment = gets.chomp
-puts file_comment
+#puts file_comment
 
 commit_line = "git commit -m \"#{file_comment}\""
 puts commit_line
