@@ -8,7 +8,7 @@ puts "Please enter the name of the file that you want to commit to git. Please e
 file_commit = gets.chomp
 
 if file_commit == "."
-  `git add \.`
+  `git add --all`
 else
   str_line = "git add #{file_commit}"
   print str_line
