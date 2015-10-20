@@ -21,7 +21,7 @@ puts "Please enter a comment for the file commit"
 #puts file_comment
 
 #commit_line = "git commit -m \"#{file_comment}\""
-#puts commit_line
+puts "hello world"
 #system 'commit_line'
 `git commit -m "test"`
 
