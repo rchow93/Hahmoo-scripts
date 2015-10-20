@@ -12,7 +12,7 @@ if file_commit == "."
 else
   str_line = "git add #{file_commit}"
   print str_line
-  system 'str_line'
+  `#{str_line}`
 end
 
 puts
