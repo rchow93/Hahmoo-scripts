@@ -6,9 +6,14 @@ git_push = "git push -u origin master"
 
 puts "Please enter the name of the file that you want to commit to git. Please enter . for everything"
 file_commit = gets.chomp
-str_line = "git add #{file_commit}"
-print str_line
-system 'str_line'
+
+if file_commit ="."
+  `git add . `
+else
+  str_line = "git add #{file_commit}"
+  print str_line
+  system 'str_line'
+end
 
 puts
 puts "Please enter a comment for the file commit"
