@@ -17,12 +17,13 @@ end
 
 puts
 puts "Please enter a comment for the file commit"
-file_comment = gets.chomp
+#file_comment = gets.chomp
 #puts file_comment
 
-commit_line = "git commit -m \"#{file_comment}\""
-puts commit_line
-system 'commit_line'
+#commit_line = "git commit -m \"#{file_comment}\""
+#puts commit_line
+#system 'commit_line'
+`git commit -m "test"`
 
 puts "You may be prompted to enter your username and password. Please have this available. "
 puts git_push
