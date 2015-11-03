@@ -11,7 +11,7 @@ choice = gets.downcase.chomp
 puts choice
 
 if choice == "a"
-  exec ("iptables -L -n -v")
+  exec ("sudo iptables -n -L -n -v")
 elsif choice == "b"
   puts "this is b"
 elsif choice == "c"
