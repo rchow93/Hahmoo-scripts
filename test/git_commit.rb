@@ -27,6 +27,7 @@ commit_line = "git commit -m \"#{file_comment}\""
 #system ( commit_line )
 #`git commit -m "test"`
 
+=begin
 
   puts "Which git repository would you like to commit this to? :"
   puts "1: Hahmoo Learning Scripts "
@@ -45,7 +46,7 @@ else choice == "3"
   puts "the choice was not recognized, please enter another choice."
 #   retry
 end
-
+=end
 
 puts "You may be prompted to enter your username and password. Please have this available. "
 puts git_push
