@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby 
  #Hahmoo LLC - All rights reserved 
  #Author: Richard Chow
+#this script will perform the steps to sync the current git repo to github - allow decide what to sync, comment, and branch
 
 
 git_push = "git push -u origin master"
