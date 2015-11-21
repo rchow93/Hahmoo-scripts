@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby 
+#this script will create a new executable and time stamp the script creation date - it will set the rights perms to make executable
+
 path = ARGV[0]
 
 fail "specify filename to create" unless path
