@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby 
  #Hahmoo LLC - All rights reserved 
  #Author: Richard Chow 
+#in process - this script will set iptables rules via menu
 
 puts "This is the Hahmoo Iptables script to simplify add/removing/viewing current iptable rules"
 puts "Please enter A - To View the Current IPTABLE rules."
